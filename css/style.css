@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #111;
+  color: rgba(255,255,255,0.7);
+  text-shadow: 1px 1px rgba(0,0,0,0.1);
+  background-image: url(http://res.cloudinary.com/owl-syme/image/upload/v1460162452/bg_vvyx5q.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;  
+  background-size: cover;
+}
+
+#brand {
+  background-color: rgba(12,12,12,0.5);
+  padding-bottom: 1px;
+  padding-left: 5px;
+}
+
+#content {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+/* center the content on the screen */
+#content {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  transform: translateX(-40%) translateY(-50%);
+}
+
+
+#temp {
+  font-size: 7em;
+  text-align: center;
+}
+.superscript {
+  font-size: 20%; 
+  position: relative;
+  top: -2.8em;
+}
+
+#conditions {
+  font-size: 200%;
+  text-align: center;
+}
+
+#sunrise-sunset {
+  margin-top: 1em;
+  text-align: center;
+  display: none;
+}
+#sunrise {
+  padding-right: 1em;
+}
+
+#location {
+  margin-top: 1em;
+  font-size: 100%;
+  text-align: center;
+}
+
+
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+
+#units {
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  margin: 0.5em;
+  font-size: 0.75em;
+}
+
+#source a {
+  color: #777;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.5em;
+  font-size: 0.75em;
+}
+
+#credits {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0.5em;
+  font-size: 0.75em;
+  color: #ddd;
+}
+#credits a {
+  color: #ccc;
+}
+
+
+@media (min-width: 500px) {
+#content {
+  font-size: 1.5em;
+}
+#brand {
+}
+}

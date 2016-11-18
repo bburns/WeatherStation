@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherStation</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- see https://www.freecodecamp.com/challenges/show-the-local-weather -->
+
+<div id="brand">WeatherStation</div>
+
+<div id="content">
+
+  <div id="temp">
+    <span id="temp-value">55</span><span id="temp-units" class="superscript">&deg;F</span>
+  </div>
+  <div id="conditions">
+    <span id="conditions-name">Cloudy</span>
+    <i id="conditions-icon" class="wi"></i>
+  </div>
+  <div id="sunrise-sunset">
+    <i class="wi wi-sunrise"></i> <span id="sunrise">7:30am</span>
+    <i class="wi wi-sunset"></i> <span id="sunset">7:30pm</span>
+  </div>
+  <div id="location">
+    Austin
+  </div>
+
+</div>
+
+<div id="units"><a id="celsius" href="#">Celsius<a> / <a id="fahrenheit" href="#">Fahrenheit</a></div>
+
+<div id="source"><a href="http://codepen.io/bburns/pen/jqYQgX">Source</a></div>
+
+<div id="credits">Weather by <a href="http://www.openweathermap.com">OpenWeatherMap</a></div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
